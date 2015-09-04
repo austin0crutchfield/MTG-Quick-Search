@@ -27,7 +27,7 @@ function updateCard() {
 	cardImage.src = "http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=" + cardName;
 
 	//Check for special case errors
-	if(cardName == '"' || cardName == "") {
+	if(cardName === '"' || cardName === "") {
 		cardImage.src = "assets/default.jpg";
 	}
 
@@ -49,11 +49,11 @@ function updateCard() {
 
 document.getElementById("gathererButton").onclick = function() {
 	chrome.tabs.create({ url: "http://gatherer.wizards.com/Pages/Card/Details.aspx?name=" + document.getElementById("cardImage").alt });
-}
+};
 
 document.getElementById("tcgButton").onclick = function() {
 	chrome.tabs.create({ url: "http://shop.tcgplayer.com/magic/product/show?ProductName=" + document.getElementById("cardImage").alt });
-}
+};
 
 document.getElementById("searchButton").onclick = function() {
 	updateCard();
