@@ -7,7 +7,7 @@ function updateCard() {
 	var specialCards = [["1996 world champion", "http://i.imgur.com/CjG5oKs.jpg"], ["shichifukujin dragon", "http://i.imgur.com/GXfgpA0.jpg"], ["splendid genesis", "http://i.imgur.com/ESnPx8h.jpg"], ["fraternal exaltation", "http://i.imgur.com/HkACLRX.jpg"], ["proposal", "http://i.imgur.com/7fcqz6U.jpg"], ["ghazban ogre", "http://i.imgur.com/hJMExno.jpg"]];
 	var cardContainer = document.getElementById("cardContainer");
 	var cardName = document.getElementById("searchBox").value.toLowerCase();
-	
+
 	//Replace special characters
 	for(var i = 0; i < cardName.length; i++) {
 		for(var n = 0; n < specialCharacters.length; n++) {
@@ -16,31 +16,31 @@ function updateCard() {
 			}
 		}
 	}
-	
+
 	//Display card back if error
 	cardImage.addEventListener('error', function () {
-		cardImage.src = "default.jpg"
+		cardImage.src = "assets/default.jpg";
 		document.getElementById("searchBox").value = cardName;
 	});
-	
+
 	//Change card image source
 	cardImage.src = "http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=" + cardName;
-	
+
 	//Check for special case errors
 	if(cardName == '"' || cardName == "") {
-		cardImage.src = "default.jpg";
+		cardImage.src = "assets/default.jpg";
 	}
-	
+
 	//Replace image if special card
 	for(var i = 0; i < specialCards.length; i++) {
 		if(cardName == specialCards[i][0]) {
 			cardImage.src = specialCards[i][1];
 		}
 	}
-	
+
 	//Store card name in alt
 	document.getElementById("cardImage").alt = cardName;
-	
+
 	//Display card and buttons
 	document.getElementById("cardImage").style.display = "block";
 	document.getElementById("gathererButton").style.display = "inline-block";

@@ -20,8 +20,8 @@ body {
 
 #searchBox:focus {
 	outline: none;
-    border: 1px solid #7BC1F7; 
-    box-shadow: inset 0px 0px 1px #4387fd;
+  border: 1px solid #7BC1F7;
+  box-shadow: inset 0px 0px 1px #4387fd;
 }
 
 #searchContainer {
@@ -31,19 +31,19 @@ body {
 
 #searchButton {
 	outline: none;
-    font-size: 13px;
+  font-size: 13px;
 	font-family: "Open Sans", arial, sans-serif;
-    color: white;
-    border: 0px;
-    background: transparent;
-    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
-    padding: 3px 11px 5px 11px;
-    border-radius: 5px;
-    cursor: pointer;
+  color: white;
+  border: 0px;
+  background: transparent;
+  background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+  padding: 3px 11px 5px 11px;
+  border-radius: 5px;
+  cursor: pointer;
 }
- 
+
 #searchButton:hover {
-    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+  background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
 }
 
 #searchButton:active {
@@ -60,22 +60,22 @@ body {
 
 #gathererButton {
 	outline: none;
-    font-size: 13px;
+  font-size: 13px;
 	font-family: "Open Sans", arial, sans-serif;
-    color: white;
-    border: 0px;
-    background: transparent;
-    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+  color: white;
+  border: 0px;
+  background: transparent;
+  background-image: -webkit-linear-gradient(#4387FD,#4683EA);
 	margin-bottom: 3px;
 	margin-left: 1px;
-    padding: 4px 25px;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 4px 25px;
+  border-radius: 5px;
+  cursor: pointer;
 	display: none;
 }
 
 #gathererButton:hover {
-    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+  background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
 }
 
 #gathererButton:active {
@@ -84,22 +84,22 @@ body {
 
 #tcgButton {
 	outline: none;
-    font-size: 13px;
+  font-size: 13px;
 	font-family: "Open Sans", arial, sans-serif;
-    color: white;
-    border: 0px;
-    background: transparent;
-    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+  color: white;
+  border: 0px;
+  background: transparent;
+  background-image: -webkit-linear-gradient(#4387FD,#4683EA);
 	margin-bottom: 3px;
 	margin-left: 1px;
-    padding: 4px 24px;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 4px 24px;
+  border-radius: 5px;
+  cursor: pointer;
 	display: none;
 }
 
 #tcgButton:hover {
-    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+  background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
 }
 
 #tcgButton:active {
