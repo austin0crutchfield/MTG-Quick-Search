@@ -1,0 +1,107 @@
+body {
+	background-color: white;
+	width: 228px;
+	max-height: 310px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+#searchBox {
+	margin: 0px 1px 0px 0px;
+	padding-left: 5px;
+	box-shadow: inset 0px 0px 1px #d9d9d9;
+	font-size: 13px;
+	width: 145px;
+	height: 22px;
+	border-radius: 4px;
+	border: 1px solid #C4C4C4;
+}
+
+#searchBox:focus {
+	outline: none;
+    border: 1px solid #7BC1F7; 
+    box-shadow: inset 0px 0px 1px #4387fd;
+}
+
+#searchContainer {
+	text-align: left;
+	margin: 5px 0px 5px 5px;
+}
+
+#searchButton {
+	outline: none;
+    font-size: 13px;
+	font-family: "Open Sans", arial, sans-serif;
+    color: white;
+    border: 0px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+    padding: 3px 11px 5px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+#searchButton:hover {
+    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+}
+
+#searchButton:active {
+	background-image: -webkit-linear-gradient(#2871F0,#2F70DE);
+}
+
+#cardImage {
+	margin: 1px 0px 5px 3px;
+	width: 223px;
+	max-height: 310px;
+	border-radius: 4px;
+	display: none;
+}
+
+#gathererButton {
+	outline: none;
+    font-size: 13px;
+	font-family: "Open Sans", arial, sans-serif;
+    color: white;
+    border: 0px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+	margin-bottom: 3px;
+	margin-left: 1px;
+    padding: 4px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+	display: none;
+}
+
+#gathererButton:hover {
+    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+}
+
+#gathererButton:active {
+	background-image: -webkit-linear-gradient(#2871F0,#2F70DE);
+}
+
+#tcgButton {
+	outline: none;
+    font-size: 13px;
+	font-family: "Open Sans", arial, sans-serif;
+    color: white;
+    border: 0px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(#4387FD,#4683EA);
+	margin-bottom: 3px;
+	margin-left: 1px;
+    padding: 4px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+	display: none;
+}
+
+#tcgButton:hover {
+    background-image: -webkit-linear-gradient(#3880FD,#3D7DEA);
+}
+
+#tcgButton:active {
+	background-image: -webkit-linear-gradient(#2871F0,#2F70DE);
+}
